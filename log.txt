@@ -3,3 +3,25 @@ haskelda
 932430887
 cs290 Assignment 4 part 1
 
+Start: Mon, 9 Feb 2015 23:15:58 -0800 
+End: Mon, 9 Feb 2015 23:35:58 -0800 
+Tasks:  Initial commit - setup repo and files
+
+
+
+Start: Tue, 10 Feb 2015 10:30
+End: Tue, 10 Feb 2015 14:30
+Tasks:  Set up SFTP in Sublime
+	Wrote multtable.html for testing
+	Added .htaccess and sessions directory.  
+	Trouble-shoot PHP/Server Errors (The above .htaccess and sessions dir resulted in Forbidden Access to multtable.php.  Read posts about this.  Deleted and re-uploaded.  This resulted in loss of all access and an empty public_html.   email to Prof and TA’s.)
+
+
+
+Start: Wed, 11 Feb 2015 10:00
+End: Wed, 11 Feb 2015 14:30
+Tasks:	Resolved yesterday’s permissions problems.  (No response to email or post. Read Engr info about PHP; revisited CS340 Quiz 1: Setup PHP.  It’s broken.  Messed with permissions for a while.  Strange behavior and hidden files.  Now getting 500 Internal Server Error.  Egad. Read some more.  Changed public_html permissions to 755 and all contents.  Hey it works!)
+	Continue with coding: completed multtable.php
+	
+	
+	
