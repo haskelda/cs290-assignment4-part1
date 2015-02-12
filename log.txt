@@ -18,10 +18,10 @@ Tasks:  Set up SFTP in Sublime
 
 
 
-Start: Wed, 11 Feb 2015 10:00
-End: Wed, 11 Feb 2015 14:30
-Tasks:	Resolved yesterday’s permissions problems.  (No response to email or post. Read Engr info about PHP; revisited CS340 Quiz 1: Setup PHP.  It’s broken.  Messed with permissions for a while.  Strange behavior and hidden files.  Now getting 500 Internal Server Error.  Egad. Read some more.  Changed public_html permissions to 755 and all contents.  Hey it works!)
-	Continue with coding: completed multtable.php
+Start: Wed, 11 Feb 2015 10:00 
+End: Wed, 11 Feb 2015 14:42:36 -0800 
+Tasks:	Resolved yesterday’s permissions problems.  (No response to email or post. Read Engr info about PHP; revisited CS340 Quiz 1: Setup PHP.  It’s broken.  Messed with permissions for a while.  Strange behavior and hidden files.  Now getting 500 Internal Server Error.  Egad. Read some more.  Changed public_html permissions to 755 and “Recurse into subdirectories” (In FileZilla).  Hey it works!)
+	Continue with coding: Completed multtable.php
 	
 	
 	

@@ -83,10 +83,10 @@ if ($dataVerified == true){
   echo "<table border='1'>\n";
   $height = $ymax - $ymin;
   $width = $xmax -$xmin;
-  echo "<tr>\n  <td>\n";
+  echo "<tr>\n  <th>\n";
   for ($x = 0; $x <= $width; $x++) {
     $topRowValue = ($xmin + $x);
-    echo "  <td>$topRowValue\n"; // top row
+    echo "  <th>$topRowValue\n"; // top row
   }
   for ($y = 0; $y <= $height; $y++) {
    echo "<tr>\n";
