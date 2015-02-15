@@ -42,4 +42,10 @@ Tasks:	Initial work on login.php and content1.php
 Start: Sat, 14 Feb 2015 16:00 
 End: Sat, 14 Feb 2015 20:29:51 -0800 
 Tasks: Completed login.php and content1.php
+
+
+
+Start: Sat, 14 Feb 2015 21:00
+End: Sat, 14 Feb 2015 22:52:08 -0800 
+Tasks: Assignment Completed. (content2.php completed.  Fixed Empty GET POST issues in loopback.php)
 	
