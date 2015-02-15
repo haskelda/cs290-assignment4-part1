@@ -36,4 +36,10 @@ Tasks:  Completed (mostly) loopback.php. (Lots of trial and error with undefined
 Start: Wed, 11 Feb 2015 22:00
 End: Wed, 12 Feb 2015 02:00 -0800 
 Tasks:	Initial work on login.php and content1.php	
+
+
+
+Start: Sat, 14 Feb 2015 16:00 
+End: Sat, 14 Feb 2015 20:29:51 -0800 
+Tasks: Completed login.php and content1.php
 	

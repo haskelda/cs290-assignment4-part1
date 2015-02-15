@@ -1,17 +1,21 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
-header('Content-type: application/json');
+//header('Content-type: application/json');
 ?>
 
+<!DOCTYPE html>
+<html>
+
 <?php
+
 $requestArray = array();
 $parameterArray = array();
 
 $requestArray['Type'] = $_SERVER['REQUEST_METHOD'];
 
-if (empty($_GET) && empty($_POST)) {  
-  $requestArray['parameters'] = null;
+if (empty($_GET) && empty($_POST)) {
+  $requestArray['parameters'] = null;  
 } else {
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
@@ -39,3 +43,4 @@ $requestArray['parameters'] = $parameterArray;
 echo json_encode($requestArray);
 ?>
 
+</html>

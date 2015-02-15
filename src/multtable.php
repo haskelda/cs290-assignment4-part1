@@ -41,7 +41,7 @@ if ($dataVerified == true) {
   }
 }
 
-//Assign $_Get array vars to local vars
+//Store $_Get array vars
 $ymin = 0;
 $ymax = 0;
 $xmin = 0;
@@ -67,11 +67,11 @@ if ($dataVerified == true) {
 if($dataVerified == true) {
   if ($ymin > $ymax) {
   	echo "Minimum multiplicand larger than maximum.\n";
-  	$dataVerified == false;
+    $dataVerified = false;
   }
   if ($xmin > $xmax) {
   	echo "Minimum multiplier larger than maximum.\n";
-  	$dataVerified == false;
+    $dataVerified = false;
   }
 }
 
@@ -91,7 +91,7 @@ if ($dataVerified == true){
   for ($y = 0; $y <= $height; $y++) {
    echo "<tr>\n";
   	$multiplicand = ($ymin + $y); 
-    echo "  <td>$multiplicand\n";//left column
+    echo "  <th>$multiplicand\n";//left column
     for ($x = 0; $x <= $width; $x++) {
     $cellValue = ($ymin + $y) * ($xmin + $x);
       echo "  <td>$cellValue\n"; // cell values

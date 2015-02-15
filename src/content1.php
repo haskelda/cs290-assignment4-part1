@@ -53,23 +53,23 @@ if (    (isset($_SESSION['username'])) && (  (isset($_POST['username'])) && ($_P
 
 // Hello
 // if user is logged into SESSION already, and did not attempt to login again as another user in login.php form
-if (isset($_SESSION['username'])) {
-  if (($_SESSION['currentusername'] == $_SESSION['username'])) { //if (isset($_POST['username']) && ($_POST['username'] == $_SESSION['username'])) 
+if ((isset($_SESSION['username'])) &&
+   (($_SESSION['currentusername'] == $_SESSION['username']))){ //if (isset($_POST['username']) && ($_POST['username'] == $_SESSION['username'])) 
     $_SESSION['visits']++;
-    echo "<p>Hello, " . "$_SESSION[username]";
-    echo ", you have visited this page " . "$_SESSION[visits] times before.";
+    echo "<p>Hello, " . "$_SESSION[username], ";
+    echo "you have visited this page " . "$_SESSION[visits] times before. ";
     echo "Click <a href='login.php?logout=TRUE'>here</a> to logout."; //Logout
-  }
-} else {
+} 
+// Begin Content
+echo "\n<br>\n<h1>Content 1</h1>\n<br>\n";
+echo "Continue to <a href='content2.php'>content2.php</a> for more member's only content!\n<br>\n";
+// End Content
 
-// no need for the above else.  I know...
-
-} // else from Hello
 } // else from Empty Login
 //} // else from Logout for testing
 
 ?>
 
-    <h1>Content 1</h1>
+    
   </body>
 </html>
